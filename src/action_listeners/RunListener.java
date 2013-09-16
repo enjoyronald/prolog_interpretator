@@ -36,7 +36,7 @@ public class RunListener implements ActionListener{
 	/*
 	public static void affiche(Object str){
 	
-		//win.getText().setText(doc);
+		
 		win.getText().setText(win.getText().getText()+"\n"+str.toString());
 	}
 */
