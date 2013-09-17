@@ -23,7 +23,7 @@ import javax.swing.*;
 
 public class Fenetre extends JFrame {
 
-	//==============================================PHASE DE DECLARATION DES VARIABLES=====================================
+	//=======================================
 
 
 
@@ -114,7 +114,7 @@ public class Fenetre extends JFrame {
 
 	//===============================================Constructeur de la Fenetre============================================	
 	public Fenetre( ){
-		//partie utile pour la taille et les dimension de la fenêtre 
+		//partie utile pour la taille et les dimension de la fenÃªtre 
 		this.setSize(700,400);
 		this.setAlwaysOnTop(false);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -122,7 +122,7 @@ public class Fenetre extends JFrame {
 		this.setLocationRelativeTo(null);
 		this.setResizable(false);
 		this.setVisible(true);
-		this.getText().setText("####################################################################\n\t\t\tProlog version 3.5\n\tCe logicile prolog est en licence libre. Il vous est propose par 2 etudiants de l'université de paris dauphne, Nabil Laraibi, et Ronald Choundong Chiatiah Ronald \n pour toute aide concernant l'utilisation du logiciel, tapez &aide\n pour nous contacter :\n####################################################################\nprolog--$");
+		this.getText().setText("####################################################################\n\t\t\tProlog version 3.5\n\tCe logicile prolog est en licence libre. Il vous est propose par 2 etudiants de l'universitÃ© de paris dauphne, Nabil Laraibi, et Ronald Choundong Chiatiah Ronald \n pour toute aide concernant l'utilisation du logiciel, tapez &aide\n pour nous contacter :\n####################################################################\nprolog--$");
 		creationMenu();
 		addListeners();
 		creationRaccourci();
@@ -165,9 +165,9 @@ public class Fenetre extends JFrame {
 				JOptionPane jop = new JOptionPane();
 
 				String mess = "";
-				mess += " Logic programming is a programming paradigm based \non mathematical logic. In this paradigm the programmer \nspeciﬁes relationships among data values (this constitutes a logic program) \nand then poses queries to the execution \n environment (usually an interactive interpreter) in order to see whether certain relationships hold. Putting this in another way, a logic program,\n through explicit facts and rules, deﬁnes a base of knowledge from which implicit knowledge can be extracted. This style of programming is popular for data base \n interfaces, expert systems, and mathematical theorem provers.\n In this tutorial you will be introduced to\n Prolog, the primary logic programming language,\n through the interactive SWI-Prolog system (interpreter).\nYou will notice that Prolog has some similarities to a functional programming language such as Hugs. A\nfunctional program consists of a sequence \nof function deﬁnitions — a logic program consists of a sequence\nof relation deﬁnitions. Both rely heavily on recursive deﬁnitions. The big diﬀerence is in the underlying\nexecution “engine” — i.e., the imperative parts of the languages. The execution engine of a functional\nlanguage evaluates an expression \nby converting it to an acyclic graph and then reducing the graph to a\nnormal form which represents the computed value. The Prolog execution environment, on the other hand,\ndoesn’t so much “compute” an answer, it “deduces” an answer from the relation deﬁnitions at hand. Rather\nthan being given an expression to evaluate, the Prolog environment is given an expression which it interprets as a question:\nFor what parameter values does the expression evaluate to true?\n You will see that Prolog is quite diﬀerent from other programming languages you have studied. First, \n Prologhas no types. In fact, the basic logic programming environment has no literal values as such. Identiﬁers\nstarting with lower-case letters denote data values (almost like values in an enumerated type) while all other\nidentiﬁers denote variables. Though the basic elements of Prolog are typeless, most implementations have\nbeen enhanced to include character and integer values and operations. Also, Prolog has mechanisms built\nin for describing tuples and lists. You will ﬁnd some similarity between these structures and those provided \n in Hugs.";
+				mess += " Logic programming is a programming paradigm based \non mathematical logic. In this paradigm the programmer \nspeciï¬�es relationships among data values (this constitutes a logic program) \nand then poses queries to the execution \n environment (usually an interactive interpreter) in order to see whether certain relationships hold. Putting this in another way, a logic program,\n through explicit facts and rules, deï¬�nes a base of knowledge from which implicit knowledge can be extracted. This style of programming is popular for data base \n interfaces, expert systems, and mathematical theorem provers.\n In this tutorial you will be introduced to\n Prolog, the primary logic programming language,\n through the interactive SWI-Prolog system (interpreter).\nYou will notice that Prolog has some similarities to a functional programming language such as Hugs. A\nfunctional program consists of a sequence \nof function deï¬�nitions â€” a logic program consists of a sequence\nof relation deï¬�nitions. Both rely heavily on recursive deï¬�nitions. The big diï¬€erence is in the underlying\nexecution â€œengineâ€� â€” i.e., the imperative parts of the languages. The execution engine of a functional\nlanguage evaluates an expression \nby converting it to an acyclic graph and then reducing the graph to a\nnormal form which represents the computed value. The Prolog execution environment, on the other hand,\ndoesnâ€™t so much â€œcomputeâ€� an answer, it â€œdeducesâ€� an answer from the relation deï¬�nitions at hand. Rather\nthan being given an expression to evaluate, the Prolog environment is given an expression which it interprets as a question:\nFor what parameter values does the expression evaluate to true?\n You will see that Prolog is quite diï¬€erent from other programming languages you have studied. First, \n Prologhas no types. In fact, the basic logic programming environment has no literal values as such. Identiï¬�ers\nstarting with lower-case letters denote data values (almost like values in an enumerated type) while all other\nidentiï¬�ers denote variables. Though the basic elements of Prolog are typeless, most implementations have\nbeen enhanced to include character and integer values and operations. Also, Prolog has mechanisms built\nin for describing tuples and lists. You will ï¬�nd some similarity between these structures and those provided \n in Hugs.";
 
-				JOptionPane.showMessageDialog(null, mess, "À propos de prolog", JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.showMessageDialog(null, mess, "Ã€ propos de prolog", JOptionPane.INFORMATION_MESSAGE);
 				jop.setSize(new Dimension(350,500));
 			}
 		});listItemInfo.add(infoPro);
@@ -188,7 +188,7 @@ public class Fenetre extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				JOptionPane jop = new JOptionPane();
 
-				String mess = "Pragrammeurs; \n Choundong Chiatiah Ronald \n Nabil Laraïbi  ";
+				String mess = "Pragrammeurs; \n Choundong Chiatiah Ronald \n Nabil LaraÃ¯bi  ";
 
 				JOptionPane.showMessageDialog(null, mess, "Version", JOptionPane.INFORMATION_MESSAGE);
 				jop.setSize(new Dimension(350,500));
@@ -226,7 +226,7 @@ public class Fenetre extends JFrame {
 		this.aide.add(infoVer);
 		this.aide.add(infoDev);
 
-		//on rajoute les menu à la menuBar
+		//on rajoute les menu Ã  la menuBar
 		this.menuBar.add(fichier);
 		this.menuBar.add(edition);
 		this.menuBar.add(menuRun);
